@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Yatra+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Racing+Sans+One&family=Ruluko&family=Ubuntu+Mono:ital@1&family=Yatra+One&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #f0f0f0; */
+            margin: 0;
+            padding: 0;
+            background: url("https://img.freepik.com/free-photo/3d-space-background-with-planet-earth-eclipse-elements-this-image-furnished_1048-14099.jpg?w=740&t=st=1697871758~exp=1697872358~hmac=a933994d0af4a101ed8674aaa1aeb7472bf97643a91914f3960f145478d2040e");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            /* background-color: #333; */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            backdrop-filter: blur(1px);
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 650px;
+            /* border: #fff; */
+            border-width: 5000px;
+            border-color: #ec0404;
+            margin: 0 auto;
+            padding: 20px;
+            /* background-color: #fff; */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            margin-top: 20px;
+            backdrop-filter: blur(1px);
+            color: #fff;
+            font-family: 'Merienda', 'Courgette';
+            font-size: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: 'Arima Madurai', 'Pacifico';
+            font-size: 20px;
+            width: 150px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+            
+        }
+
+        #name {
+            width: 630px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+
+        #email {
+            width: 630px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+
+        #message {
+            width: 630px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="font-family:'Amaranth', sans-serif ;
+    font-size: 20px;">
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

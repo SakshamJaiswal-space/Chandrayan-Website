@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Arima+Madurai&family=Courgette&family=Lobster&family=Merienda:wght@700&family=Pacifico&family=Racing+Sans+One&family=Ruluko&family=Ubuntu+Mono:ital@1&family=Yatra+One&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    /* border: 2px solid red; */
+}
+
+body {
+    background: url("back3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-attachment: fixed;
+    height: 1000px;
+    /* opacity: 0.5; */
+    backdrop-filter: blur(2px);
+}
+
+.navigation {
+    margin: 0px 1rem;
+}
+
+.ancor {
+    text-decoration: none;
+    color: white;
+    /* border-color: 2px solid rgb(0, 47, 255); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    padding: 0.47rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+}
+
+.ancor:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    background-color: white;
+    color: black;
+    border-radius: 3rem;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    background: none;
+    height: 68px;
+    transition: all 0.6s ease-out;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* padding-top: 25px; */
+    align-items: center;
+    justify-content: center;
+    /* transition: all 0.6s ease-out; */
+}
+
+.Heading section {
+    width: inherit;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Heading section strong {
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#cnt {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+#imm {
+    padding: 30px;
+    border-radius: 10%;
+}
+
+#cc {
+    display: flex;
+}
+
+footer {
+    background-color: "grey";
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.Heading p {
+    font-size: 33px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'Arima Madurai', 'Pacifico'
+}
+
+.Heading img {
+    padding-left: 50px;
+}
+
+.Heading {
+    color: rgb(253, 253, 253);
+    /* border: 2px solid red; */
+    display: flex;
+    height: 950px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.same {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: -1;
+    color: white;
+}
+
+#heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Merienda', 'Pacifico';
+
+}
+
+.para {
+    font-size: 1.5rem;
+    font-family: 'Ruluko', 'Baloo Bhai';
+    margin: 0px 50px;
+    line-height: 32px;
+}
+
+.head {
+    font-size: 2rem;
+    font-family: 'Merienda', 'Courgette';
+
+    margin: 50px 50px;
+}
+
+.pp3 {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 18px 0px;
+}
+
+.pp3 div {
+    margin: 0rem 0rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 1rem 1rem;
+}
+
+.ll {
+    width: 19rem;
+    font-family: 'Merienda', 'Courgette';
+    font-size: 2rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    font-weight: 100px;
+}
+
+.btn:hover {
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    /* background: none; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
